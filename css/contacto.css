@@ -1,0 +1,129 @@
+h1, h2, h3, h4 {
+    margin: 0;
+}
+.column_50{
+    width: 49%;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.group_title{
+    margin:15px 0;
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+button{
+    border: none;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: orangered;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.column_text{
+    justify-content: space-between;
+}
+.contact .container_flex{
+    align-items: flex-start;
+}
+.column_title{
+    font-size: 1.3em;
+}
+.cursos{
+    background-color: white;
+}
+
+.contact_info{
+    padding: 10px;
+    padding-top:0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #de423a;
+}
+.contact_info .column_title{
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+.contact_info[class*="icon-"]{
+    font-size: 1.3em;
+    margin-right: 7px;
+    position: relative;
+    top: 5px;
+}
+.contact_info .social-icon{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.contact_info .social-icon [class*="icon-"]{
+    background: black;
+    color: white;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.formulario{
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.formulario_titulo{
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 7);
+}
+.formulario_label, .formulario_input-text {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+.formulario_input-text:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+.formulario_input-text:focus + .formulario_label{
+    margin-top: -135px;
+}
+.formulario_label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -100px;
+    color: rgba(0, 0, 0, 0.5);      
+    transition: all 0.2s;
+}
+.formulario_input-text  {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.fijar{
+    margin-top: -135px;
+}
+
+@media screen and (min-width:480){
+    .contact .container_flex{
+        align-items: flex-start;
+    }
+    .contact_info p {
+        font-size: .75em;
+    }
+    .contact_info{
+        border-right: 1px solid #de423a;
+        border-bottom: none;
+    }
+}
