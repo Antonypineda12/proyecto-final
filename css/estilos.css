@@ -154,10 +154,10 @@ margin-bottom: 30px;
     }
     .cursos_txt1{
         
-        color: rgb(26, 5, 83);
+        color: #9fd5d1;
     }
     .cursos_titulo{
-        color: aqua;
+        color: rgba(207, 12, 12, 0.7);
 
     }
 }
@@ -213,7 +213,7 @@ h2{
     }
     .cursos_txt1{
         font-size: 14px;
-        color: rgb(26, 5, 83);
+        color: #9fd5d1;
     }
     .cursos_titulo{
         color: rgba(207, 12, 12, 0.7);
@@ -231,7 +231,7 @@ h2{
    }
    .cursos_txt1{
     font-size: 20px;
-    color: rgb(26, 5, 83);
+    color: #9fd5d1;
 }
 .cursos_descripcion{
     width: 90%;
@@ -251,7 +251,7 @@ h2{
     }
     .cursos_txt1{
         font-size: 25px;
-        color: rgb(26, 5, 83);
+        color: #9fd5d1;
     }
     .cursos_descripcion{
         width: 70%;
@@ -305,9 +305,7 @@ display: flex;
     width: 300px;
     height: 200px;
 }
-.cursos_titulo{
-    font-size: 45px;
-}
+
 }
 @media (min-width:1280px){
     .contenedor{
@@ -315,7 +313,7 @@ display: flex;
     }
     .cursos_txt1{
         font-size: 27px;
-        color: rgb(26, 5, 83);
+        color: #9fd5d1;
     }
 
     .logo{
